@@ -1,0 +1,32 @@
+.person {
+  margin: 20px;
+  display: inline-block;
+  background-color: whitesmoke;
+  -webkit-box-shadow: #777279 1px 1px;
+          box-shadow: #777279 1px 1px;
+  border-radius: 5px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.person img {
+  border-radius: 50%;
+}
+
+.person .title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.person .text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.person button {
+  background-color: green;
+  width: 100%;
+  padding: 5px 20px;
+  border: none;
+}

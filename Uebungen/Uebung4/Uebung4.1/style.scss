@@ -1,0 +1,44 @@
+.box {
+  width: 100%;
+  display: flex;
+  
+  div {
+    display: flex;
+    border: 1px solid black;
+    height: 100%;
+    flex: 1;
+  }
+}
+
+.dynamic-div {
+  width: 100%;
+  display: flex;
+  div {
+    border: 1px solid black;
+    height: 100%;
+  }
+  .fix {
+    flex-basis: 200px;
+  }
+  .dynamic {
+    flex-grow: 1;
+  }
+}
+
+.mindestbreite-div {
+  width: 100%;
+  display: flex;
+  div {
+    border: 1px solid black;
+    height: 100%;
+  }
+  .fix {
+    flex-basis: 200px;
+  }
+  .dynamic {
+    flex-grow: 1;
+  }
+  .no-shrink {
+    flex-shrink: 0;
+  }
+}

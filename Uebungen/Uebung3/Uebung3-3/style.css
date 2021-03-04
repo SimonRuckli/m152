@@ -1,7 +1,7 @@
 .person {
   margin: 20px;
   display: inline-block;
-  background-color: whitesmoke;
+  background-color: lightgray;
   -webkit-box-shadow: #777279 1px 1px;
           box-shadow: #777279 1px 1px;
   border-radius: 5px;
@@ -41,3 +41,4 @@
 .person:hover .person__contact {
   background-color: darkgreen;
 }
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,26 @@
+.container-picture {
+  height: 90vh;
+  display: grid; 
+  grid-template-rows: 20% 20% 20% 20% 20%; 
+  grid-template-columns:25% 25% 25% 25%; 
+}
+
+.pink {
+  background-color: pink;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: orange;
+}
+
+.green {
+  background-color: lightgreen;
+}

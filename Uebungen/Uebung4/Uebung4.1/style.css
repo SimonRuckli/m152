@@ -1,0 +1,69 @@
+.box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.dynamic-div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dynamic-div div {
+  border: 1px solid black;
+  height: 100%;
+}
+
+.dynamic-div .fix {
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+}
+
+.dynamic-div .dynamic {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.mindestbreite-div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mindestbreite-div div {
+  border: 1px solid black;
+  height: 100%;
+}
+
+.mindestbreite-div .fix {
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+}
+
+.mindestbreite-div .dynamic {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.mindestbreite-div .no-shrink {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+/*# sourceMappingURL=style.css.map */
